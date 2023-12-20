@@ -1,0 +1,44 @@
+Namespace(data='/home/zlr/t2vec/data', checkpoint='/home/zlr/t2vec/data/checkpoint.pt', prefix='exp', pretrained_embedding=None, num_layers=3, bidirectional=True, hidden_size=256, embedding_size=256, dropout=0.2, max_grad_norm=5.0, learning_rate=0.001, batch=128, generator_batch=32, t2vec_batch=256, start_iteration=0, epochs=15, print_freq=50, save_freq=1000, cuda=True, use_discriminative=False, discriminative_w=0.1, criterion_name='KLDIV', knearestvocabs='data/porto-vocab-dist-cell100.h5', dist_decay_speed=0.8, max_num_line=20000000, max_length=200, mode=0, vocab_size=18864, bucketsize=[(20, 30), (30, 30), (30, 50), (50, 50), (50, 70), (70, 70), (70, 100), (100, 100)])
+Reading training data...
+Read line 500000
+Read line 1000000
+Read line 1500000
+Read line 2000000
+Read line 2500000
+Read line 3000000
+Read line 3500000
+Read line 4000000
+Read line 4500000
+Read line 5000000
+Read line 5500000
+Read line 6000000
+Read line 6500000
+Read line 7000000
+Read line 7500000
+Read line 8000000
+Read line 8500000
+Read line 9000000
+Read line 9500000
+Read line 10000000
+Read line 10500000
+Read line 11000000
+Read line 11500000
+Read line 12000000
+Read line 12500000
+Read line 13000000
+Read line 13500000
+Read line 14000000
+Read line 14500000
+Read line 15000000
+Read line 15500000
+Read line 16000000
+Read line 16500000
+Allocation: [0, 0, 0, 0, 0, 0, 0, 16711960]
+Percent: [0. 0. 0. 0. 0. 0. 0. 1.]
+Reading validation data...
+Loaded validation data size 167520
+Loading vocab distance file data/porto-vocab-dist-cell100.h5...
+=> training with CPU
+=> no checkpoint found at '/home/zlr/t2vec/data/checkpoint.pt'
+Iteration starts at 0 and will end at 66999
+Iteration: 0	Generative Loss: 2.561	Discriminative Cross Loss: 0.000	Discriminative Inner Loss: 0.000
